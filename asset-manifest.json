@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LauraAubin/not-your-average-crayon/static/css/main.844216fd.css",
+    "main.js": "/LauraAubin/not-your-average-crayon/static/js/main.90698440.js",
+    "index.html": "/LauraAubin/not-your-average-crayon/index.html",
+    "main.844216fd.css.map": "/LauraAubin/not-your-average-crayon/static/css/main.844216fd.css.map",
+    "main.90698440.js.map": "/LauraAubin/not-your-average-crayon/static/js/main.90698440.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.844216fd.css",
+    "static/js/main.90698440.js"
+  ]
+}
