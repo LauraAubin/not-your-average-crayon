@@ -1,0 +1,18 @@
+.TextArea {
+   color: black;
+   font-family: 'Helvetica', 'Perpetua';
+
+   outline: none;
+   border: none;
+   // overflow: auto;
+   /* textarea is inline and there is a gap at the bottom for it's descenders.
+      vertical-align: top removes this gap.
+   */
+   vertical-align: top;
+   resize: none;
+
+   height: 200px;
+   width: 400px;
+
+   box-shadow: 5px 5px lightslategray;
+}

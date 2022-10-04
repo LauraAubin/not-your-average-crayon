@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import {AppProvider, Card, Stack} from "@shopify/polaris";
-import {TextArea} from "./TextArea";
+import {AppProvider, Card, Stack} from '@shopify/polaris';
+import {TextArea} from './TextArea';
+
+import './App.scss';
 
 export default function App() {
   return (
@@ -12,8 +14,10 @@ export default function App() {
             <div>I will soon be a picture you can draw on</div>
           </Card.Section>
 
-          <Card.Section>
-            <TextArea />
+          <Card.Section flush>
+            <div className="CardBackground">
+              <TextArea />
+            </div>
           </Card.Section>
         </Card>
       </Stack>
