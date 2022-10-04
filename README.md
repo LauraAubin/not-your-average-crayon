@@ -1,11 +1,13 @@
 # Not your average crayon.
 
-✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️
+✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️
 
 ## First time here? 😘
 
 <details>
-<summary>Teehee</summary>
+<summary>Teehee!</summary>
+
+<br>
 
 ```bash
 $ npm install
@@ -15,17 +17,28 @@ $ npm install
 $ yarn build
 ```
 
+> **Note**
+> <small>You can skip `yarn build` if you will be exclusively pushing to Github Pages™️</small>
+
 </details>
+
+<br>
 
 <details>
-<summary>I'm a regular</summary>
+<summary>I'm a regular...</summary>
 
-// eventually to be push to pages
+<br>
 
-- `yarn start`
+Local server http://localhost:3000/,
+
+```
+$ yarn start
+```
+
+Push changes to Github Pages™️,
+
+```
+$ yarn deploy
+```
 
 </details>
-
-
-
-
