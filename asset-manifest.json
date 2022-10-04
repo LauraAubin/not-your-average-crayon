@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/not-your-average-crayon/static/css/main.0e9a0974.css",
-    "main.js": "/not-your-average-crayon/static/js/main.3eea301b.js",
+    "main.css": "/not-your-average-crayon/static/css/main.af094826.css",
+    "main.js": "/not-your-average-crayon/static/js/main.1affd5a8.js",
     "index.html": "/not-your-average-crayon/index.html",
-    "main.0e9a0974.css.map": "/not-your-average-crayon/static/css/main.0e9a0974.css.map",
-    "main.3eea301b.js.map": "/not-your-average-crayon/static/js/main.3eea301b.js.map"
+    "main.af094826.css.map": "/not-your-average-crayon/static/css/main.af094826.css.map",
+    "main.1affd5a8.js.map": "/not-your-average-crayon/static/js/main.1affd5a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e9a0974.css",
-    "static/js/main.3eea301b.js"
+    "static/css/main.af094826.css",
+    "static/js/main.1affd5a8.js"
   ]
 }
