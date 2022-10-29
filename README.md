@@ -1,8 +1,6 @@
 # **Not your average crayon.**
 
-✏️ [https://lauraaubin.github.io/not-your-average-crayon/](Try out this crayon) ✏️
-
-[https://lauraaubin.github.io/not-your-average-crayon/](Try out this crayon)
+✏️ [/lauraaubin.github.io/not-your-average-crayon/](Try out this crayon) ✏️
 
 <br>
 
@@ -48,7 +46,7 @@ $ yarn build
 <br>
 
 ```bash
-# Start local server at - http://localhost:3000/
+# Start local server at - /http://localhost:3000/
 
 $ yarn start
 ```
