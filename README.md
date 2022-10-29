@@ -1,46 +1,61 @@
-# Not your average crayon.
+# **Not your average crayon.**
 
-✏️ https://lauraaubin.github.io/not-your-average-crayon/ ✏️
-
-## Development
+✏️ [https://lauraaubin.github.io/not-your-average-crayon/](Try out this crayon) ✏️
 
 <br>
-### First time here? 😘
+
+# 🛠 Development
+
+## *"😘 First time here?"*
+
+<br>
 
 <details>
-<summary>Teehee!</summary>
+<summary><summary>😶 Maybe.</summary></summary>
+
+<hr>
 
 <br>
 
 ```bash
+# Install packages for the first time
+
 $ npm install
 ```
 
 ```bash
+# wait what?
+
 $ yarn build
 ```
 
 > **Note** > <small>You can skip `yarn build` if you will be exclusively pushing to Github Pages™️</small>
+
+<hr>
 
 </details>
 
 <br>
 
 <details>
-<summary>I'm a regular...</summary>
+<summary><summary>🤓 I'm a regular...</summary></summary>
+
+<hr>
 
 <br>
 
-Local server http://localhost:3000/,
+```bash
+# Start local server at - http://localhost:3000/
 
-```
 $ yarn start
 ```
 
-Push changes to Github Pages™️,
+```bash
+# Push changes to Github Pages™️ - lauraaubin.github.io/not-your-average-crayon/
 
-```
 $ yarn deploy
 ```
+
+<hr>
 
 </details>
