@@ -11,7 +11,7 @@
 <br>
 
 <details>
-<summary><summary>😶 Maybe.</summary></summary>
+<summary>😶 Maybe.</summary>
 
 <hr>
 
@@ -29,7 +29,8 @@ $ npm install
 $ yarn build
 ```
 
-> **Note** > <small>You can skip `yarn build` if you will be exclusively pushing to Github Pages™️</small>
+> **Note**
+> <small>You can skip `yarn build` if you will be exclusively pushing to Github Pages™️</small>
 
 <hr>
 
@@ -38,7 +39,7 @@ $ yarn build
 <br>
 
 <details>
-<summary><summary>🤓 I'm a regular...</summary></summary>
+<summary>🤓 I'm a regular...</summary>
 
 <hr>
 
