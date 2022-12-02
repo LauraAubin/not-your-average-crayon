@@ -1,6 +1,6 @@
 # **Not your average crayon.**
 
-✏️ [https://lauraaubin.github.io/not-your-average-crayon](Try out this crayon) ✏️
+✏️ [Try out this crayon](https://lauraaubin.github.io/not-your-average-crayon) ✏️
 
 <br>
 
