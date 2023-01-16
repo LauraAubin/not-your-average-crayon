@@ -1,12 +1,12 @@
 # **Not your average crayon.**
 
-✏️ [Try out this crayon](https://lauraaubin.github.io/not-your-average-crayon) ✏️
+✏️ [Try out this tool](https://lauraaubin.github.io/not-your-average-crayon) ✏️
 
 <br>
 
 # 🛠 Development
 
-## *"😘 First time here?"*
+**"😘 First time here?"**
 
 <br>
 
