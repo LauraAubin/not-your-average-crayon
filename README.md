@@ -1,17 +1,24 @@
-# **Not your average crayon.**
+## **Not your average crayon.**
 
 ✏️ [https://lauraaubin.github.io/not-your-average-crayon](Try out this crayon) ✏️
 
+- Include snazzy screenshot here
+- Provide some amazing bio
+- Why do this?
+- Why not?
+
 <br>
 
-# 🛠 Development
+## 🛠 Development
 
-## *"😘 First time here?"*
+...
+
+## *"Hey there gorgeous, first time here? 😘"*
 
 <br>
 
 <details>
-<summary>😶 Maybe.</summary>
+<summary>Mmhmmm. 😶</summary>
 
 <hr>
 
@@ -29,6 +36,8 @@ $ npm install
 $ yarn build
 ```
 
+<br/>
+
 > **Note**
 > <small>You can skip `yarn build` if you will be exclusively pushing to Github Pages™️</small>
 
@@ -39,7 +48,7 @@ $ yarn build
 <br>
 
 <details>
-<summary>🤓 I'm a regular...</summary>
+<summary>I'm a regular... 🤓 </summary>
 
 <hr>
 
