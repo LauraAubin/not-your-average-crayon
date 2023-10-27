@@ -1,31 +1,66 @@
 import {useState, useEffect} from 'react';
 
+// LINE_HEIGHT is also repeated in TextArea.scss
+const LINE_HEIGHT = 15;
+// Absolutely arbitrary
+const SPACE_WIDTH = 4;
+const NON_BREAKING_SPACE = String.fromCharCode(160);
+
 interface Props {
+  TextAreaRef: React.RefObject<HTMLDivElement>;
   mouseCoordinates?: {
     x: number;
     y: number;
   };
 }
 
-export function useTextAreaContent({mouseCoordinates}: Props) {
-  useEffect(() => {
-    function addNewRows() {
-      if (selectedRow > numberOfRows) {
-        const newRowsDelta = selectedRow - numberOfRows;
+export function useTextAreaContent({TextAreaRef, mouseCoordinates}: Props) {
+  const defaultText = 'Default';
+  const [text, setText] = useState<string>(defaultText);
+  const [doppelgangerText, setDoppelgangerText] = useState(defaultText);
 
-        setText(text + '\n'.repeat(newRowsDelta));
-      }
+  const {x, y} = mouseCoordinates ?? {};
+  const rowWidth = TextAreaRef?.current?.clientWidth;
+
+  useEffect(() => {
+    const height = getTextAreaHeight();
+    const selectedRow = getSelectedRow();
+
+    const newSpaces = countNewSpaces();
+
+    console.log('ADDING TEXT', {x, rowWidth, newSpaces});
+
+    if (newSpaces >= 1) {
+      addNewSpaces(newSpaces);
     }
 
-    addNewRows();
+    // if (selectedRow > height) {
+    //   console.log('new rows', {newRows});
+    //   setText((current) => current + '\n'.repeat(newRows));
+    // }
+
+    // addNewRows();
   }, [mouseCoordinates]);
 
-  const [text, setText] = useState<string>('Default txt');
+  useEffect(() => {
+    setDoppelgangerText(text);
+  }, [text]);
 
-  const selectedRow = mouseCoordinates?.y
-    ? Number((mouseCoordinates?.y / 15).toFixed())
-    : 1;
-  const numberOfRows = text.split('\n').length;
+  function getTextAreaHeight() {
+    return text.split('\n').length;
+  }
 
-  return {text, setText};
+  function getSelectedRow() {
+    return y ? Number((y / LINE_HEIGHT).toFixed()) : 1;
+  }
+
+  function countNewSpaces() {
+    return (x! - rowWidth!) / SPACE_WIDTH;
+  }
+
+  function addNewSpaces(spaces: number) {
+    setText(text + NON_BREAKING_SPACE.repeat(spaces));
+  }
+
+  return {text, setText, doppelgangerText};
 }

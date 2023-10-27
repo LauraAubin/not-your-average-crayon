@@ -1,18 +1,31 @@
-.TextArea {
-   color: black;
-   font-family: 'Helvetica', 'Perpetua';
+@mixin TextProperties {
+  // This value must match that used in useTextAreaContent
+  line-height: 15px;
 
-   outline: none;
-   border: none;
-   // overflow: auto;
-   /* textarea is inline and there is a gap at the bottom for it's descenders.
+  font-size: 14px;
+  color: black;
+  font-family: 'Helvetica', 'Perpetua';
+}
+
+.TextArea {
+  @include TextProperties;
+
+  outline: none;
+  border: none;
+  /* textarea is inline and there is a gap at the bottom for it's descenders.
       vertical-align: top removes this gap.
    */
-   vertical-align: top;
-   resize: none;
+  vertical-align: top;
+  resize: none;
 
-   height: 200px;
-   width: 400px;
+  width: 400px;
+  height: 200px;
 
-   box-shadow: 5px 5px lightslategray;
+  box-shadow: 5px 5px lightslategray;
+}
+
+.TextAreaDoppelganger {
+  @include TextProperties;
+
+  border: 1px red solid;
 }
